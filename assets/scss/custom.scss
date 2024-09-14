@@ -192,3 +192,21 @@ html {
 .article-list--tile article:hover {
   transform: scale(1.03, 1.03);
 }
+
+/*-----------字體----------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+SC:wght@200..900&display=swap');
+// 文章字體
+body, .article-content {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+// 標題字體
+body, .article-title {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+
+// 首頁字體
+body, .article-page {
+  font-family: "Noto Sans TC", sans-serif;
+}
