@@ -18,6 +18,16 @@ footer.site-footer {
         margin-bottom: 5px;
     }
 
+    .runningtime {
+        color: var(--body-text-color);
+        font-weight: normal;
+        font-size: 1.45rem;
+
+        a {
+            color: var(--body-text-color);
+        }
+    }
+
     .powerby {
         color: var(--body-text-color);
         font-weight: normal;

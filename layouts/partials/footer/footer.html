@@ -8,6 +8,12 @@
         {{ now.Format "2006" }} {{ default .Site.Title .Site.Copyright }}
     </section>
     
+    <!-- Add blog running time -->
+    <section class="runningtime">
+    網站穩定運行
+    <span id="runningdays" class="running-days"></span>
+    </section>
+
     <section class="powerby">
         {{ with .Site.Params.footer.customText }}
             {{ . | safeHTML }} <br/>
